@@ -37,9 +37,9 @@ class Config(object):
     CUSTOM_CMD = False
     CHANNEL = getenv("CHANNEL", "TheUpdatesChannel")
     SUPPORT = getenv("SUPPORT", "TheSupportChat")
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/be8c652f94e3cfdd2ca8d.jpg")
+    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/d5c6c3b2b5a43383baf7a.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/d5c6c3b2b5a43383baf7a.jpg")
-    CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
+    CASH_API_KEY = getenv("CASH_API_KEY", "https://telegra.ph/file/be8c652f94e3cfdd2ca8d.jpg")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
     spamwatch_api = getenv("spamwatch_api", "https://t.me/SpamWatchBot")
